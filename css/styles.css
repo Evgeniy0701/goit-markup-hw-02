@@ -28,7 +28,7 @@ ul {
   font-family: Raleway;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ ul {
   font-family: Raleway;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -243,6 +243,15 @@ ul {
   background: #fff;
 }
 
+.section-menu-name {
+
+}
+
+.section-menu-list {
+  font-family: "Roboto", sans-serif
+}
+
+
 .section-menu-link {
   color: var(--iris, #4d5ae5);
   text-align: center;
@@ -254,7 +263,7 @@ ul {
   letter-spacing: 0.64px;
 }
 .section-menu-al {
-  color: var(--white, #fff);
+  color:  #FFFFFF;
   text-align: center;
   font-size: 16px;
   font-family: Roboto;
@@ -262,10 +271,18 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  letter-spacing: 0.04em
 }
 
 .section-menu-all {
-  background: var(--ocean, #404bbf);
+  background:  #4d5ae5;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  letter-spacing: 0.04em
 }
 
 .section-menu-item {
