@@ -238,7 +238,7 @@ ul {
   text-transform: uppercase;
 }
 
-/*-----------------------CAP SECTION 1------------------*/
+/*-----------------------CAP SECTION ------------------*/
 .main-section {
   background: #fff;
 }
@@ -247,7 +247,7 @@ ul {
 
 }
 
-.section-menu-list {
+.list {
   font-family: "Roboto", sans-serif
 }
 
