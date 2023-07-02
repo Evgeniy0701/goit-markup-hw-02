@@ -26,17 +26,6 @@ ul {
   background: #ffffff;
 }
 
-.web {
-  color: var(--iris, #4D5AE5);
-font-size: 18px;
-font-family: Raleway, sans-serif;
-font-style: normal;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-} 
-
 .link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -44,12 +33,12 @@ text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:#4d5ae5 ;
+  color:#2E2F42;
   text-decoration: none;
 }
 
-.studio {
-  color: var(--navyblue, #2E2F42);
+.link span {
+  color:  #4d5ae5;
 font-size: 18px;
 font-family: Raleway;
 font-style: normal;
