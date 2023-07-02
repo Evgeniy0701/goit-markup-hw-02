@@ -56,13 +56,16 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
+link:hover,
+    .link:focus {
+      color: #404bbf;
+    }
 /*---------Meny Nav-------------------*/
 
-.header-menu-item {
+
+.header-link-item {
+  text-decoration:none
 }
-
-
-
 
 .link-menu {
   text-decoration: none;
