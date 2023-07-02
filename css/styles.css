@@ -24,17 +24,18 @@ ul {
 
 /*----------------HEADER LOGO---------------*/
 
-.link-header-logo {
+.link-logo {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:  #2e2f42 ;
+  text-decoration: none;
  
 }
 
-.link-header-logo {
+.link-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px ;
@@ -45,7 +46,7 @@ ul {
   text-decoration: none;
 }
 
-.link-header-logo span {
+.link-logo span {
   color: #2e2f42 ;
 font-size: 18px;
 font-family: Raleway;
@@ -54,10 +55,7 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
-}
-
-.link-header-logo {
-  text-decoration: none
+text-decoration: none;
 }
 
 /*---------Meny Nav-------------------*/
