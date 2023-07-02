@@ -3,13 +3,13 @@
   --text-color: #2e2f42;
   --paragraph-color: #434455;
   --text-color: #4d5ae5;
-  --button-bg-color: #F4F4FD;
+  --button-bg-color: #f4f4fd;
 }
 
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 a {
@@ -23,45 +23,41 @@ ul {
 /*----------------HEADER---------------*/
 
 .header-menu {
-  background:  #FFFFFF;
+  background: #ffffff;
 }
 
-
 .header-logo span {
-  color: var(--iris, #4D5AE5);
-font-size: 18px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .header-logo {
-  color: var(--navyblue, #2E2F42);
-font-size: 18px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
-
-
 
 .header-menu-item {
 }
 
 .header-menu-link {
-  color:  #2e2f42;
+  color: #2e2f42;
   font-size: 16px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -79,7 +75,7 @@ text-transform: uppercase;
 }
 
 .header-addres-item {
-  color:  #434455;
+  color: #434455;
   font-size: 16px;
   font-family: Roboto;
   font-style: normal;
@@ -90,7 +86,7 @@ text-transform: uppercase;
 
 /*------------------HERE-----------------*/
 .here {
-  background:  #2e2f42;
+  background: #2e2f42;
 }
 .here-title {
   color: #fff;
@@ -103,7 +99,7 @@ text-transform: uppercase;
 }
 
 .here-btn {
-  color:  #fff;
+  color: #fff;
   font-size: 16px;
   font-family: Roboto;
   font-style: normal;
@@ -125,7 +121,7 @@ text-transform: uppercase;
 }
 
 .features-subtitle {
-  color:  #2e2f42;
+  color: #2e2f42;
   font-size: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -135,7 +131,7 @@ text-transform: uppercase;
 }
 
 .features-item-text {
-  color:  #434455;
+  color: #434455;
   font-size: 16px;
   font-family: Roboto;
   font-style: normal;
@@ -150,7 +146,7 @@ text-transform: uppercase;
   background: #fff;
 }
 .wedo-title {
-  color:  #2e2f42;
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-family: Roboto;
@@ -231,7 +227,7 @@ text-transform: uppercase;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -248,7 +244,6 @@ text-transform: uppercase;
 
 /*----------------------BODY portfolio------------------------*/
 
-
 /*-----------------------CAP SECTION ------------------*/
 .main-section {
   background: #fff;
@@ -260,17 +255,15 @@ text-transform: uppercase;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color);
-
 }
 
 .list {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
 }
 
-
 .section-menu-link {
-  color:   #4d5ae5;
-  background-color:#F4F4FD;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   text-align: center;
   font-size: 16px;
   font-family: Roboto, sans-serif;
@@ -282,38 +275,15 @@ text-transform: uppercase;
 }
 
 .section-menu-link:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-menu-link:focus {
-  background-color: #404BBF;
-}
-
-.section-menu-al {
-  color:  #FFFFFF;
-  text-align: center;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.section-menu-all {
-  background:  #4d5ae5;
-  font-size: 16px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+  background-color: #404bbf;
 }
 
 .section-menu-item {
-  background:  #f4f4fd;
+  background: #f4f4fd;
 }
 
 /*---------------------PHOTO SECTION-------------------*/
@@ -323,9 +293,11 @@ text-transform: uppercase;
 }
 
 .name-list {
+  
 }
 
-.name-item {
+.name-item-list {
+
 }
 
 .name-photo {
@@ -340,40 +312,40 @@ text-transform: uppercase;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--paragraph-color, #434455 ) ;
+  color: var(--paragraph-color, #434455);
 }
 
 /*------------FOOTER PORTFOLIO-------------- */
 .footer {
-    background: var(--navyblue, #2e2f42);
-  }
-  .footer-logo span {
-    color: var(--iris, #4d5ae5);
-    font-size: 18px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
-  .footer-text {
-    color: var(--cloud, #f4f4fd);
-    font-size: 16px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.50;
-    letter-spacing: 0.32px;
-  }
-  
-  .footer-logo {
-    color: var(--cloud, #f4f4fd);
-    font-size: 18px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
+  background: var(--navyblue, #2e2f42);
+}
+.footer-logo span {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer-logo {
+  color: var(--cloud, #f4f4fd);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
