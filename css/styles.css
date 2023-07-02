@@ -26,29 +26,39 @@ ul {
   background: #ffffff;
 }
 
-.link span {
-  color: var(--iris, #4d5ae5);
-  font-size: 18px;
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
+.web {
+  color: var(--iris, #4D5AE5);
+font-size: 18px;
+font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+} 
 
 .link {
-  color: var(--navyblue, #2e2f42);
-  font-size: 18px;
-  font-family: Raleway, sans-serif;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px ;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.link {
+  color:#4d5ae5 ;
   text-decoration: none;
 }
+
+.studio {
+  color: var(--navyblue, #2E2F42);
+font-size: 18px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
 
 .header-menu-item {
 }
