@@ -4,6 +4,8 @@
   --paragraph-color: #434455;
   --text-color: #4d5ae5;
   --button-bg-color: #f4f4fd;
+  --link-color: #2e2f42;
+  
 }
 
 body {
@@ -61,6 +63,7 @@ text-transform: uppercase;
 
 .link-menu {
   text-decoration: none;
+  color: var(--link-color);
 }
 
 .link-menu:hover,
@@ -68,17 +71,18 @@ text-transform: uppercase;
   color: #404bbf;
 }
 
-.link-memu {
+.link-menu {
   text-decoration: none;
 }
 
-.link-memu:hover,
-.link-memu:focus {
+.link-menu:hover,
+.link-menu:focus {
   color: #404bbf;
 }
 
-
-
+.ss {
+  color: #2e2f42;
+}
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
