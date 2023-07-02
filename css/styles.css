@@ -54,9 +54,30 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
+/*---------Meny Nav-------------------*/
 
 .header-menu-item {
 }
+
+.link-menu {
+  text-decoration: none;
+}
+
+.link-menu:hover,
+.link-menu:focus {
+  color: #404bbf;
+}
+
+.link-memu {
+  text-decoration: none;
+}
+
+.link-memu:hover,
+.link-memu:focus {
+  color: #404bbf;
+}
+
+
 
 .header-menu-link {
   color: #2e2f42;
@@ -67,6 +88,8 @@ text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+/*------------addres meny-----------------*/
 
 .header-addres {
   color: var(--slate, #434455);
