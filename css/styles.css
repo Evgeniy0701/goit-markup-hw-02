@@ -35,7 +35,7 @@ ul {
   text-decoration: none;
 }
 
-.header span {
+.header-logo span {
   color: #2e2f42 ;
 font-size: 18px;
 font-family: Raleway;
@@ -60,10 +60,9 @@ text-decoration: none;
  
 }
 
-link:hover,
-  .link:focus {
+.link:hover,
+.link-menu:focus {
   color: #404bbf;
-
 }
 
 .header-link-item {
