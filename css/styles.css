@@ -283,9 +283,9 @@ link-menu:focus {
   background: var(--navyblue, #2e2f42);
 }
 .footer-logo span {
-  color: var(--iris, #4d5ae5);
+  color: #f4f4fd;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   line-height: 1.16;
@@ -301,17 +301,19 @@ link-menu:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+ 
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color:  #4d5ae5;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
+
 
 /*----------------------BODY portfolio------------------------*/
 
@@ -388,8 +390,8 @@ link-menu:focus {
 .footer {
   background: var(--navyblue, #2e2f42);
 }
-.footer-logo span {
-  color: var(--iris, #4d5ae5);
+.footer-logo  {
+  color:  #4d5ae5;
   font-size: 18px;
   font-family: Raleway;
   font-style: normal;
@@ -408,8 +410,8 @@ link-menu:focus {
   letter-spacing: 0.32px;
 }
 
-.footer-logo {
-  color: var(--cloud, #f4f4fd);
+.footer-logo span {
+  color:  #f4f4fd;
   font-size: 18px;
   font-family: Raleway;
   font-style: normal;
