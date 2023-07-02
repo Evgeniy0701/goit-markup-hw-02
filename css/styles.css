@@ -1,11 +1,15 @@
 :root {
   --accent-color: #4d5ae5;
+  --text-color: #2e2f42;
+  --paragraph-color: #434455;
+  --text-color: #4d5ae5;
+  --button-bg-color: #F4F4FD;
 }
 
 body {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -22,27 +26,31 @@ ul {
   background:  #FFFFFF;
 }
 
+
 .header-logo span {
-  color:  #4d5ae5;
-  font-size: 18px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  color: var(--iris, #4D5AE5);
+font-size: 18px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 
 .header-logo {
-  color:  #2e2f42;
-  font-size: 18px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  color: var(--navyblue, #2E2F42);
+font-size: 18px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+
 }
+
+
 
 .header-menu-item {
 }
@@ -238,12 +246,20 @@ ul {
   text-transform: uppercase;
 }
 
+/*----------------------BODY portfolio------------------------*/
+
+
 /*-----------------------CAP SECTION ------------------*/
 .main-section {
   background: #fff;
 }
 
 .section-menu-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 
 }
 
@@ -253,25 +269,35 @@ ul {
 
 
 .section-menu-link {
-  color: var(--iris, #4d5ae5);
+  color:   #4d5ae5;
+  background-color:#F4F4FD;
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
+
+.section-menu-link:hover {
+  background-color: #404BBF;
+}
+
+.section-menu-link:focus {
+  background-color: #404BBF;
+}
+
 .section-menu-al {
   color:  #FFFFFF;
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
 }
 
 .section-menu-all {
@@ -282,7 +308,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .section-menu-item {
@@ -310,11 +337,10 @@ ul {
 }
 
 .name-text-item {
-  color:  #434455;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color, #434455 ) ;
 }
 
 /*------------FOOTER PORTFOLIO-------------- */
