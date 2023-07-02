@@ -111,7 +111,7 @@ link-menu:focus {
 /*------------addres meny-----------------*/
 
 .header-addres-list {
-  color: var(--slate, #434455);
+  color:  #434455;
   font-size: 16px;
   font-family: Roboto;
   font-style: normal;
@@ -122,6 +122,10 @@ link-menu:focus {
 
 .list-address :hover {
   color: #404bbf;
+}
+
+.header-addres {
+  font-style: normal;
 }
 
 .list-address :focus {
