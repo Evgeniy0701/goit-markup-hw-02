@@ -26,26 +26,28 @@ ul {
   background: #ffffff;
 }
 
-.header-logo span {
+.link span {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.header-logo {
+.link {
   color: var(--navyblue, #2e2f42);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .header-menu-item {
