@@ -22,9 +22,9 @@ ul {
   list-style-type: none;
 }
 
-/*----------------HEADER---------------*/
+/*----------------HEADER LOGO---------------*/
 
-.list-link {
+.header-logo-link {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -34,7 +34,7 @@ ul {
  
 }
 
-.link {
+.header-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px ;
@@ -45,7 +45,7 @@ ul {
   text-decoration: none;
 }
 
-.link span {
+.header-logo-link span {
   color: #2e2f42 ;
 font-size: 18px;
 font-family: Raleway;
@@ -62,16 +62,16 @@ link:hover,
     }
 /*---------Meny Nav-------------------*/
 
+
+
 .link {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-
-
 
 .link:hover,
 .link:focus {
