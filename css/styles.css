@@ -33,12 +33,12 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:#2E2F42;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
 .link span {
-  color:  #4d5ae5;
+  color: #2e2f42 ;
 font-size: 18px;
 font-family: Raleway;
 font-style: normal;
