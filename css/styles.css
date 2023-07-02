@@ -61,10 +61,21 @@ text-transform: uppercase;
 .header-menu-item {
 }
 
+.link {
+  
+}
 .link-menu {
   text-decoration: none;
   color: var(--link-color);
 }
+.link-menu {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
 .link-menu:hover,
 .link-menu:focus {
@@ -80,9 +91,8 @@ text-transform: uppercase;
   color: #404bbf;
 }
 
-.ss {
-  color: #2e2f42;
-}
+
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
