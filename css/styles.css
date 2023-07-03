@@ -333,6 +333,104 @@ link-menu:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.link-menu {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+link-menu:focus {
+  color: #404bbf;
+}
+
+.link:hover,
+.link-menu:focus {
+  color: #404bbf;
+}
+
+.header-link-item {
+  text-decoration: none;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: var(--link-color);
+}
+.link-menu {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link-menu:hover,
+.link-menu:focus {
+  color: #404bbf;
+}
+
+.link-menu {
+  text-decoration: none;
+}
+
+.link-menu:hover,
+.link-menu:focus {
+  color: #404bbf;
+}
+
+.header-menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/*addres meny portfolio*/
+.header-addres-list {
+  color:  #434455;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.list-address-menu :hover {
+  color: #404bbf;
+}
+
+.header-addres {
+  font-style: normal;
+}
+
+.list-address-menu :focus {
+  color: #404bbf;
+}
+
+.list-address-menu a {
+  color: #434455;
+}
+
+.list-address-menu {
+  color: #434455;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
 /*-----------------------CAP SECTION ------------------*/
 .main-section {
   background: #fff;
