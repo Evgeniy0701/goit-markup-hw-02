@@ -172,6 +172,10 @@ link-menu:focus {
   cursor: pointer;
 }
 
+.here-btn {
+  background-color: #4D5AE5
+}
+
 .here-btn:hover {
   background-color: #404bbf;
 }
