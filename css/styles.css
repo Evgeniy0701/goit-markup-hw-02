@@ -48,6 +48,25 @@ ul {
   text-decoration: none;
 }
 
+.header-logo-link {
+  /* Решта стилів для логотипу */
+  color: var(--logo-color); /* Використання CSS змінної для кольору */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
 /*---------Meny Nav-------------------*/
 
 .link-menu {
