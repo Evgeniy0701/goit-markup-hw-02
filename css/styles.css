@@ -146,7 +146,7 @@ link-menu:focus {
   letter-spacing: 0.32px;
 }
 
-/*------------------CAP-----------------*/
+/*------------------ SECTION 1 CAP-----------------*/
 .here {
   background: #2e2f42;
 }
@@ -162,7 +162,7 @@ link-menu:focus {
 }
 
 .here-btn {
-  background-color: #4D5AE5;
+  color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -179,7 +179,7 @@ link-menu:focus {
 .here-btn:focus {
   background-color: #404bbf;
 }
-/*-------------------FEATURES---------------------*/
+/*------------------- SECTION 2 FEATURES---------------------*/
 
 .features {
   background: #fff;
@@ -211,7 +211,7 @@ link-menu:focus {
   letter-spacing: 0.32px;
 }
 
-/*----------- what do we doing---------------*/
+/*----------- SECTION 3  what do we doing---------------*/
 
 .wedo {
   background: #fff;
@@ -232,7 +232,7 @@ link-menu:focus {
 .wedo-item {
 }
 
-/*-------------------TEAM-------------------------*/
+/*------------------- SECTION 4 TEAM-------------------------*/
 
 .made {
   background: var(--cloud, #f4f4fd);
@@ -250,7 +250,9 @@ link-menu:focus {
   text-transform: capitalize;
 }
 
-.made-list {
+.made-list li {
+  background-color: #FFFFFF;
+
 }
 
 .made-idem {
